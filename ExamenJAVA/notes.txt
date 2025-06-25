@@ -1,0 +1,22 @@
+Clasa abstracta angajati
+ - nume
+ - metoda calculSalar double
+
+      Clasa AngajatiCuSalarFix
+	-String Numele Angajatului
+	-double Salariul Fix
+	-metoda calculSalar double
+	-metoda schimbaSlariulFix
+
+      Clasa AngajatCuOra
+	-String Numele Angajatului
+	-Int numarul de ore agreate pe luna
+	-double salariul pe ora
+	-metoda adaugaOre(int) = numar ore + (int)
+	-metoda SchimbaSalarPeOra 
+	-metoda calculSalar (nr total de ore) * (salariul pe ora)
+
+Clasa Firma
+-metoda angajeaza (daca nu exista deja unul cu acelasi nume), returneaza TRUE
+-list angajati
+-metoda salariuMediu,intoarce double(media salariilor angajatilor) - daca nu are angajati intoarce 0
